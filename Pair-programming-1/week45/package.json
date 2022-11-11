@@ -1,15 +1,20 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "lodash": "^4.17.21"
   },
   "name": "week45",
   "version": "1.0.0",
   "description": "(description of the project is here)",
   "main": "script.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Hello from test script",
+    "create-some-folder": "mkdir some && cd some && mkdir other"
   },
   "author": "Johanna Toivanen",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Jihau/week45)"
+  }
 }

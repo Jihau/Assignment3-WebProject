@@ -1,0 +1,47 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #693c83;
+  --ifm-color-primary-dark: #311f83;
+  --ifm-color-primary-darker: #422771;
+  --ifm-color-primary-darkest: #47205d;
+  --ifm-color-primary-light: #893392;
+  --ifm-color-primary-lighter: #99356e;
+  --ifm-color-primary-lightest: #ad3c67;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  background-image: url("https://static.skillshare.com/uploads/video/thumbnails/a37bb95be72b57c228b0b4d1ae8db06d/original");
+  --ifm-color-primary: rgba(155, 24, 124, 0.66);
+  --ifm-color-primary-dark: #6121af;
+  --ifm-color-primary-darker: #7f1fa5;
+  --ifm-color-primary-darkest: #811a88;
+  --ifm-color-primary-light: #ca29d5;
+  --ifm-color-primary-lighter: #d8329e;
+  --ifm-color-primary-lightest: #dd4f81;
+  --docusaurus-highlighted-code-line-bg: rgba(131, 24, 53, 0.87);
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  min-width: 250px;
+}
+
+.button--lg {
+  max-width: 300px;
+  margin-bottom: 10px;
+  background-color: rgba(229, 160, 245, 0.73);
+  border-color: #811a88;
+}
